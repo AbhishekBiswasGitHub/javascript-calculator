@@ -1,7 +1,12 @@
+import { useState } from "react";
+
 import "./App.css";
 
 const App = () => {
-  return <div></div>;
+  const [equation, setEquation] = useState([]);
+  const [display, setDisplay] = useState("");
+
+  return <div id="calculator-container"></div>;
 };
 
 export default App;
